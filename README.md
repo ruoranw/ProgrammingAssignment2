@@ -42,6 +42,9 @@ really a list containing a function to
                  setmean = setmean,
                  getmean = getmean)
     }
+    
+ makeVector(x = numeric(2,10,4,7,8,1,6))
+    
 
 The following function calculates the mean of the special "vector"
 created with the above function. However, it first checks to see if the
